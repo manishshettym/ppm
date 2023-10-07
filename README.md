@@ -1,7 +1,5 @@
 # `ppm`: personal project manager
 
-![demo](/assets/demo.gif)
-
 ## Usage
 
 `ppm new` - Create a new project
