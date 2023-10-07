@@ -1,2 +1,1 @@
-# ppm
-ppm: personal project manager
+# `ppm`: personal project manager
