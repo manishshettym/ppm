@@ -55,7 +55,7 @@ def new() -> None:
     console = Console()
     project_name = questionary.text("Enter project name:").ask()
     project_path = questionary.text("Enter project path:").ask()
-    project_dir = os.path.join(project_path, project_name)
+    project_dir = os.path.abspath(os.path.join(project_path, project_name))
     os.makedirs(project_dir, exist_ok=True)
     config_data[project_name] = project_dir
     write_config_data(config_data)
